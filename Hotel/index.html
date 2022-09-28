@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Hotel</title>
+        <link rel="shortcut icon" href="img/F.jpg" type="image/x-icon">
+        <link rel="stylesheet" href="css/site.css">
+
+    </head>
+    <body>
+        <header id="title">
+            <h1>HOTEL</h1>
+            <p>Datos de reserva:</p> 
+        </header>
+            
+
+        <main>
+            <div class="room">
+                <label for="room">Seleccione el tipo de habitación:</label>
+                <select name="room" id="room">
+                    <option value="standard">Standard</option>
+                    <option value="junior">Junior Suite</option>
+                    <option value="suite">Suite</option>
+                </select>
+            </div>
+            <div class="room">
+                <input type="checkbox" id="spa">
+                <label for="spa"> Añadir sesión de SPA.</label>
+            </div>
+            <div class="room">
+                <label for="pax">Tamaño de la habitación:</label>
+                <select name="pax" id="pax-num">
+                    <option value="pax1">Individual</option>
+                    <option value="pax2">Doble</option>
+                    <option value="pax3">Triple</option>
+                </select>
+            </div>
+            <div class="room">
+                <label for="night-num">Número de noches:</label>
+                <input type="text" id="night-num" value="0">
+            </div>
+            <div class="room">
+                <label for="parking-num"> Número de noches de parking:</label>
+                <input type="text" id="parking-num" value="0">
+            </div>
+            <div class="room">
+                <!-- <button id="button-total">Calcular</button> -->
+                <h3>Total:</h3>
+                <h3><span id="result">0</span> €</h3>
+            </div>
+
+        </main>
+        <script type="text/javascript" src="js/app.js">0</script>
+    </body>
+</html>
